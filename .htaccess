@@ -1,0 +1,19 @@
+ Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /cafeteria/
+ 
+
+ 
+
+#CONFIGURACION GENERAL SERVIDOR
+ErrorDocument 404 /404.html
+
+RewriteRule ^$ publico/vista/inicio.php? [L]
+RewriteRule ^lista$ publico/vista/productoVista.php? [L]
+RewriteRule ^registro$ publico/vista/productoRegistro.php? [L]
+RewriteRule ^compras$ publico/vista/compras.php? [L]
+RewriteRule ^editar-(.+)$$ publico/vista/productoEditar.php?id=$1 [L]
+
+
+
+
