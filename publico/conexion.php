@@ -4,7 +4,7 @@
 		$user = "root";
 		$pass = "";
 		$server ="localhost";
-		$basededatos ="bd_cafeteria";
+		$basededatos ="bd_cafeteria_test";
 
 		$con = new mysqli($server,$user,$pass,$basededatos) or die('Error al conectar a la base de dato');
 		 mysqli_set_charset($con, 'utf8');

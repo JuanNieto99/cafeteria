@@ -11,3 +11,6 @@ INSTALACION
 
 Es necesario instalar Xammp o wamp server y colocarla carpeta cafeteria en donde se gestionan los proyectos en mi caso htdocs luego se inicia apache y mysql y se abre usando la ruta de localhost 
 "http://localhost/cafeteria/"
+
+REPOSITORIO
+https://github.com/JuanNieto99/cafeteria.git
